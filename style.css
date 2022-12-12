@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400&display=swap');
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: rgb(241, 241, 241);
+font-family: 'Roboto';
+}
+.container
+{
+width: 60%;
+margin: 10em auto;
+text-align: center;
+align-items: center;
+}
+.time
+{
+font-size: 4em;
+}
+.buttons
+{
+margin: 5em;
+}
+#start
+{
+background-color: blueviolet;
+color: #fff;
+padding: 10px 25px;
+border: none;
+cursor: pointer;
+}
+#start:hover
+{
+background-color: rgb(58, 12, 102);
+transition: .4s ease;
+}
+#pause 
+{
+background-color: rgb(179, 29, 29);
+color: #fff;
+padding: 10px 25px;
+border: none;
+cursor: pointer;
+}
+#pause:hover
+{
+background-color: rgb(124, 0, 0);
+transition: .4s ease;
+}
+#reset 
+{
+background-color: rgb(0, 0, 0);
+color: #fff;
+padding: 10px 25px;
+border: none;
+cursor: pointer;
+}
+#reset:hover
+{
+background-color: rgb(77, 77, 77);
+transition: .4s ease;
+}
